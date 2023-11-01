@@ -3,16 +3,8 @@ import {
   MDBContainer,
   MDBNavbar,
   MDBNavbarBrand,
-  MDBNavbarToggler,
-  MDBIcon,
   MDBNavbarNav,
-  MDBNavbarItem,
-  MDBNavbarLink,
   MDBBtn,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem,
   MDBCollapse,
 } from 'mdb-react-ui-kit';
 
@@ -30,9 +22,6 @@ export default function Navbar() {
         <MDBNavbarBrand href='#'>INNOVATIONS</MDBNavbarBrand>
         <MDBNavbarBrand href='#'></MDBNavbarBrand>
         
-
-     
-
         <MDBCollapse navbar show={showBasic}>
           <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
           </MDBNavbarNav>
