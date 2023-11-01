@@ -9,6 +9,7 @@ export default function Main() {
         <div className="main">
         <h1>{user.name}</h1>
         <img src={user.imageUrl} alt={user.name} width = {user.imageSize}/>
+    
         <button>I'm a button</button>
         </div>
     )
