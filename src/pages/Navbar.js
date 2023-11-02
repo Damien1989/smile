@@ -26,6 +26,11 @@ export default function Navbar() {
           <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
           </MDBNavbarNav>
 
+          <button>Nous rejoindre</button>
+          <button>Contact</button>
+          
+          
+
           <form className='d-flex input-group w-auto'>
             <input type='search' className='form-control' placeholder='Type query' aria-label='Search' />
             <MDBBtn color='primary'>Search</MDBBtn>
